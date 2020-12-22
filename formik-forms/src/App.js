@@ -1,6 +1,7 @@
 import './App.css';
 import UserForm from './UserForm';
 import { UserFormWithFormik } from './UserFormWithFormik';
+import { UserFormWithFormikValidation } from './UserFormWithFormikValidation';
 
 function App() {
   return (
@@ -10,6 +11,8 @@ function App() {
       <UserForm/>
       <hr/>
       <UserFormWithFormik/>
+      <hr/>
+      <UserFormWithFormikValidation/>
     </div>
   );
 }
