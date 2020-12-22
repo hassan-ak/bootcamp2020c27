@@ -1,5 +1,6 @@
 import './App.css';
 import UserForm from './UserForm';
+import { UserFormWithFormik } from './UserFormWithFormik';
 
 function App() {
   return (
@@ -7,6 +8,8 @@ function App() {
       <h1>Forms</h1>
       <hr/>
       <UserForm/>
+      <hr/>
+      <UserFormWithFormik/>
     </div>
   );
 }
